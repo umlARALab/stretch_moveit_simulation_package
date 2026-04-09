@@ -9,6 +9,7 @@ Then, run the following:
 - `ros2 launch stretch_core stretch_driver.launch.py broadcast_odom_tf:=True`
 - `ros2 launch stretch_moveit move_group.launch.py`
 - `ros2 launch stretch_moveit moveit_rviz.launch.py`
+
 The order of these 3 commands matters. The above order should work, but if it doesn't, try re-entering them one at a time in a different order. This can resolve some errors.
 
 When rviz2 launches, you should see the Stretch's current position and a Stretch that can be moved for planning.
